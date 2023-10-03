@@ -34,6 +34,11 @@ body {
 	text-transform: uppercase;
 	color: #09f;
 }
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
 /* navigation */
 nav {
 	height: 60px;
@@ -62,6 +67,18 @@ nav {
 	height: 330px;
 	background-size: cover;
 	background-position: center;
+}
+/* main */
+main {
+	margin: 60px;
+}
+/* about us */
+.about-us-info {
+margin-bottom: 10px;
+}
+/* products */
+.products{
+	
 }
 @media (min-width: 768px) {
 	.burger-icon {
@@ -93,7 +110,7 @@ nav {
 		font-size: 18px;
 	}
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 	.hero-text h1 {
 		font-size: 42px;
 	}
