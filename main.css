@@ -74,11 +74,11 @@ main {
 }
 /* about us */
 .about-us-info {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 /* products */
-.products{
-	
+.products {
+	margin: 60px auto;
 }
 @media (min-width: 768px) {
 	.burger-icon {
