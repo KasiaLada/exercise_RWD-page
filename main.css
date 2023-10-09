@@ -105,6 +105,23 @@ main {
 .fourth-product {
 	background-image: url('./img/home-office-1867761_640.jpg');
 }
+
+/* contact */
+.contact {
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+/* footer */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
 @media (min-width: 768px) {
 	.burger-icon {
 		display: none;
