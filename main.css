@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -41,10 +44,16 @@ body {
 }
 /* navigation */
 nav {
+	position: sticky;
+	top: 0;
 	height: 60px;
 	line-height: 60px;
 	background-color: #ddd;
 	text-align: center;
+	z-index: 10;
+}
+section {
+	scroll-margin-top: 80px;
 }
 
 .burger-icon {
@@ -90,6 +99,10 @@ main {
 }
 .product h3 {
 	text-transform: uppercase;
+	transition: transform 0.3s;
+}
+.product:hover h3 {
+	transform: scale(1.6);
 }
 .first-product {
 	background-image: url('./img/children-593313_640.jpg');
